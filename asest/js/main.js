@@ -14,7 +14,7 @@ const showMenu = (toggleId, navId) =>{
 showMenu('nav-toggle','nav-menu')
 
 /* REMOVE MENU MOBILE */
-const navLink = document.querySelectorAll('.nav__link')
+const navLink = document.querySelectorAll('.nav_link')
 
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
@@ -103,7 +103,7 @@ let opt = {
   margin:       0,
   filename:     'Foglino Inés Valeria.pdf',
   image:        { type: 'jpeg', quality: 0.98 },
-  html2canvas:  { scale: 4 },
+  html2canvas:  { scale: 2 },
   jsPDF:        { format: 'a4', orientation: 'portrait' }
 };
 
